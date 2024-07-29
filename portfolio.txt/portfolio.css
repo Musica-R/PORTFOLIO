@@ -175,6 +175,11 @@ p{
 .mobile-para{
     display:none;
 }
+@media all and (max-width:1000px){
+   .home-img{
+    margin-left: 50px;
+   }
+}
 @media all and (max-width:600px){
     .sec{
         margin-top: 100px;
@@ -306,6 +311,11 @@ p{
 }
 .education h4{
     color:#0ef;
+}
+@media all and (max-width:1000px){
+    .education br{
+        display:none;
+      }
 }
 @media all and (max-width:600px){
     .education{
